@@ -4,7 +4,7 @@ using System;
 public partial class Player : CharacterBody2D
 {
     [Export]
-    public int Speed = 200;
+    public int Speed = 150;
 
     private Vector2 _inputDirection = Vector2.Zero;
     private AnimatedSprite2D _animatedSprite;

@@ -23,6 +23,15 @@ window/size/viewport_height=270
 
 project/assembly_name="DungeonExplorers"
 
+[layer_names]
+
+2d_render/layer_1="walls"
+2d_render/layer_2="player"
+2d_render/layer_3="enemies"
+2d_render/layer_4="objects"
+2d_physics/layer_1="walls"
+2d_physics/layer_2="player"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
