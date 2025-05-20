@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctbvpknyq8e5r"]
+
+[ext_resource type="Script" uid="uid://w1lk07phr1vm" path="res://scenes/ui/HealthBar.cs" id="1_fylcu"]
+[ext_resource type="Texture2D" uid="uid://c2o4hwfdaef2f" path="res://assets/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/health_ui.png" id="1_w7vne"]
+[ext_resource type="Texture2D" uid="uid://dlwtpol5omexu" path="res://assets/v1.1 dungeon crawler 16X16 pixel pack/ui (new)/progress_bar.png" id="2_fylcu"]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_fylcu")
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+offset_left = 32.0
+offset_top = 32.0
+offset_right = 112.0
+offset_bottom = 48.0
+scale = Vector2(4, 4)
+value = 100.0
+texture_over = ExtResource("1_w7vne")
+texture_progress = ExtResource("2_fylcu")
+tint_progress = Color(0.698039, 0, 0, 1)
